@@ -16,9 +16,9 @@
 <script src="{{asset('global/plugins/moment.min.js')}}" type="text/javascript"></script>
 <script src="{{asset('libs/bootstrap-daterangepicker/daterangepicker.js')}}" type="text/javascript"></script>
 <script src="{{asset('libs/morris.js/morris.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('global/plugins/morris/raphael-min.js')}}../assets/" type="text/javascript"></script>
-<script src="../assets/global/plugins/counterup/jquery.waypoints.min.js" type="text/javascript"></script>
-<script src="../assets/global/plugins/counterup/jquery.counterup.min.js" type="text/javascript"></script>
+<script src="{{asset('global/plugins/morris/raphael-min.js')}}" type="text/javascript"></script>
+<script src="{{ asset('global/plugins/counterup/jquery.waypoints.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('global/plugins/counterup/jquery.counterup.min.js') }}" type="text/javascript"></script>
 <script src="{{asset('libs/amcharts/amcharts/amcharts.js')}}" type="text/javascript"></script>
 <script src="{{asset('libs/amcharts/amcharts/serial.js')}}" type="text/javascript"></script>
 <script src="{{asset('libs/amcharts/amcharts/pie.js')}}" type="text/javascript"></script>
@@ -30,12 +30,12 @@
 <script src="{{asset('libs/amcharts/amcharts/ammap/maps/js/worldLow.js')}}" type="text/javascript"></script>
 <script src="{{asset('libs/amcharts/amcharts/amstockcharts/amstock.js')}}" type="text/javascript"></script>
 <script src="{{asset('libs/fullcalendar/dist/fullcalendar.min.js')}}" type="text/javascript"></script>
-{{--<script src="../assets/global/plugins/horizontal-timeline/horizontal-timeline.js" type="text/javascript"></script>--}}
-{{--<script src="../assets/global/plugins/flot/jquery.flot.min.js" type="text/javascript"></script>--}}
-{{--<script src="../assets/global/plugins/flot/jquery.flot.resize.min.js" type="text/javascript"></script>--}}
-{{--<script src="../assets/global/plugins/flot/jquery.flot.categories.min.js" type="text/javascript"></script>--}}
-{{--<script src="../assets/global/plugins/jquery-easypiechart/jquery.easypiechart.min.js" type="text/javascript"></script>--}}
-{{--<script src="../assets/global/plugins/jquery.sparkline.min.js" type="text/javascript"></script>--}}
+<script src="{{ asset('global/plugins/horizontal-timeline/horizontal-timeline.js') }}" type="text/javascript"></script>
+<script src="{{ asset('global/plugins/flot/jquery.flot.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('global/plugins/flot/jquery.flot.resize.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('global/plugins/flot/jquery.flot.categories.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('global/plugins/jquery-easypiechart/jquery.easypiechart.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('global/plugins/jquery.sparkline.min.js') }}" type="text/javascript"></script>
 <script src="{{asset('libs/jqvmap/dist/jquery.vmap.min.js')}}" type="text/javascript"></script>
 <script src="{{asset('libs/jqvmap/dist/maps/jquery.vmap.russia.js')}}" type="text/javascript"></script>
 <script src="{{asset('libs/jqvmap/dist/maps/jquery.vmap.world.js')}}" type="text/javascript"></script>
