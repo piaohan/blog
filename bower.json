@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "description": "",
+  "main": "",
+  "authors": [
+    "muyong <38197125@qq.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "js": "^6.0.1",
+    "bootstrap": "^3.3.7",
+    "html5shiv": "^3.7.3",
+    "respond": "^1.4.2"
+  }
+}
