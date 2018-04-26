@@ -9,7 +9,17 @@
     @yield('head')
 </head>
 <body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white">
-    @yield('content')
+<div class="page-wrapper">
+    <div class="page-header navbar navbar-fixed-top">
+    @include('admin.layouts.h_head')
+    </div>
+    <div class="clearfix"> </div>
+    <div class="page-container">
+    @include('admin.layouts.h_sidebar')
+        @yield('content')
+    </div>
+    @include('admin.layouts.h_footer')
+    </div>
 </body>
 @include('admin.layouts.footer_js')
 @yield('footer')

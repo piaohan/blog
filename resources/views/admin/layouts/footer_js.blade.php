@@ -5,8 +5,7 @@
 {{--<script src="../assets/global/plugins/ie8.fix.min.js"></script>--}}
 {{--<![endif]-->--}}
 <!-- BEGIN CORE PLUGINS -->
-<script src="{{asset('libs/jquery/dist/jquery.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('libs/bootstrap/dist/css/bootstrap.min.css')}}" type="text/javascript"></script>
+<script src="{{asset('global/plugins/jquery.min.js')}}" type="text/javascript"></script>
 <script src="{{asset('libs/js-cookie/src/js.cookie.js')}}" type="text/javascript"></script>
 <script src="{{asset('libs/jquery-slimscroll/jquery.slimscroll.min.js')}}" type="text/javascript"></script>
 <script src="{{asset('libs/blockUI/jquery.blockUI.js')}}" type="text/javascript"></script>
@@ -17,8 +16,8 @@
 <script src="{{asset('libs/bootstrap-daterangepicker/daterangepicker.js')}}" type="text/javascript"></script>
 <script src="{{asset('libs/morris.js/morris.min.js')}}" type="text/javascript"></script>
 <script src="{{asset('global/plugins/morris/raphael-min.js')}}" type="text/javascript"></script>
-<script src="{{ asset('global/plugins/counterup/jquery.waypoints.min.js') }}" type="text/javascript"></script>
-<script src="{{ asset('global/plugins/counterup/jquery.counterup.min.js') }}" type="text/javascript"></script>
+<script src="{{asset('global/plugins/counterup/jquery.waypoints.min.js') }}" type="text/javascript"></script>
+<script src="{{asset('global/plugins/counterup/jquery.counterup.min.js') }}" type="text/javascript"></script>
 <script src="{{asset('libs/amcharts/amcharts/amcharts.js')}}" type="text/javascript"></script>
 <script src="{{asset('libs/amcharts/amcharts/serial.js')}}" type="text/javascript"></script>
 <script src="{{asset('libs/amcharts/amcharts/pie.js')}}" type="text/javascript"></script>
@@ -26,9 +25,9 @@
 <script src="{{asset('libs/amcharts/amcharts/themes/light.js')}}" type="text/javascript"></script>
 <script src="{{asset('libs/amcharts/amcharts/themes/patterns.js')}}" type="text/javascript"></script>
 <script src="{{asset('libs/amcharts/amcharts/themes/chalk.js')}}" type="text/javascript"></script>
-<script src="{{asset('libs/amcharts/amcharts/ammap/ammap.js')}}" type="text/javascript"></script>
-<script src="{{asset('libs/amcharts/amcharts/ammap/maps/js/worldLow.js')}}" type="text/javascript"></script>
-<script src="{{asset('libs/amcharts/amcharts/amstockcharts/amstock.js')}}" type="text/javascript"></script>
+<script src="{{asset('libs/amcharts/ammap/ammap.js')}}" type="text/javascript"></script>
+<script src="{{asset('libs/amcharts/ammap/maps/js/worldLow.js')}}" type="text/javascript"></script>
+<script src="{{asset('global/plugins/amcharts/amstockcharts/amcharts.js')}}" type="text/javascript"></script>
 <script src="{{asset('libs/fullcalendar/dist/fullcalendar.min.js')}}" type="text/javascript"></script>
 <script src="{{ asset('global/plugins/horizontal-timeline/horizontal-timeline.js') }}" type="text/javascript"></script>
 <script src="{{ asset('global/plugins/flot/jquery.flot.min.js') }}" type="text/javascript"></script>
@@ -42,7 +41,7 @@
 <script src="{{asset('libs/jqvmap/dist/maps/jquery.vmap.europe.js')}}" type="text/javascript"></script>
 <script src="{{asset('libs/jqvmap/dist/maps/jquery.vmap.germany.js')}}" type="text/javascript"></script>
 <script src="{{asset('libs/jqvmap/dist/maps/jquery.vmap.usa.js')}}" type="text/javascript"></script>
-<script src="{{asset('libs/jqvmap/dist/maps/jquery.vmap.sampledata.js')}}" type="text/javascript"></script>
+<script src="{{asset('global/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata.js')}}" type="text/javascript"></script>
 {{--<!-- END PAGE LEVEL PLUGINS -->--}}
 {{--<!-- BEGIN THEME GLOBAL SCRIPTS -->--}}
 {{--<script src="../assets/global/scripts/app.min.js" type="text/javascript"></script>--}}
